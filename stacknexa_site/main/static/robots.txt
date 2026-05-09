@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stacknexasolutions.onrender.com/sitemap.xml
