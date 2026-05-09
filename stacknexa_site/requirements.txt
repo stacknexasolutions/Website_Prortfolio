@@ -1,0 +1,29 @@
+# ==========================================
+# StackNexa Solutions - Python Dependencies
+# ==========================================
+
+# Core Framework
+Django==6.0.4
+
+# AI & Machine Learning
+openai==2.31.0
+
+# Environment Variables
+python-dotenv==1.2.2
+
+# Additional Utilities (optional but recommended)
+# Database
+# psycopg2-binary==2.9.9  # PostgreSQL adapter (uncomment if using PostgreSQL)
+
+# Production Server
+# gunicorn==21.2.0  # WSGI HTTP Server (for production)
+# whitenoise==6.6.0  # Static file serving (for production)
+
+# Development Tools (optional)
+# django-debug-toolbar==4.2.0  # Debugging toolbar
+# black==24.1.1  # Code formatter
+# flake8==7.0.0  # Linter
+
+# Testing (optional)
+# pytest==7.4.4
+# pytest-django==4.7.0

@@ -1,0 +1,207 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}StackNexaSolutions - Empowering Your Digital Success{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Welcome to the Future of Tech</span>
+            </div>
+            <h1 class="hero-title">
+                Empowering Your
+                <span class="gradient-text">Digital Success</span>
+            </h1>
+            <p class="hero-subtitle">
+                We transform visionary ideas into powerful digital solutions. From cloud infrastructure to AI-driven analytics, we're your partner in innovation.
+            </p>
+            <div class="hero-cta">
+                <a href="{% url 'contact' %}" class="btn btn-primary">
+                    Get Started
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="{% url 'portfolio' %}" class="btn btn-secondary">
+                    View Our Work
+                </a>
+            </div>
+        </div>
+        
+        <div class="hero-stats">
+            <div class="stat-item">
+                <h3 class="stat-number" data-count="50">0</h3>
+                <p class="stat-label">Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number" data-count="30">0</h3>
+                <p class="stat-label">Happy Clients</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number" data-count="99">0</h3>
+                <p class="stat-label">Satisfaction Rate</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Preview -->
+<section class="services-preview">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Our Core Services</h2>
+            <p class="section-subtitle">Comprehensive solutions tailored to your business needs</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"/>
+                    </svg>
+                </div>
+                <h3 class="service-title">Cloud Solutions</h3>
+                <p class="service-description">
+                    Scalable cloud infrastructure on AWS, Azure, and GCP. Migration, optimization, and 24/7 support.
+                </p>
+                <a href="{% url 'services' %}" class="service-link">
+                    Learn More
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                <h3 class="service-title">Full Stack Development</h3>
+                <p class="service-description">
+                    End-to-end web and mobile applications using React, Django, Node.js, and modern frameworks.
+                </p>
+                <a href="{% url 'services' %}" class="service-link">
+                    Learn More
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                        <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                        <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+                <h3 class="service-title">Data Science & ML</h3>
+                <p class="service-description">
+                    Advanced machine learning models, predictive analytics, and AI-powered solutions for your data.
+                </p>
+                <a href="{% url 'services' %}" class="service-link">
+                    Learn More
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                        <line x1="6" y1="20" x2="6" y2="14"></line>
+                    </svg>
+                </div>
+                <h3 class="service-title">Dashboard & Analytics</h3>
+                <p class="service-description">
+                    Interactive dashboards and real-time analytics to visualize and understand your business data.
+                </p>
+                <a href="{% url 'services' %}" class="service-link">
+                    Learn More
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="why-choose">
+    <div class="container">
+        <div class="why-grid">
+            <div class="why-content">
+                <h2 class="section-title">Why Choose StackNexa?</h2>
+                <p class="section-text">
+                    We combine technical excellence with business acumen to deliver solutions that drive real results. Our team of experts is committed to your success.
+                </p>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-text">
+                            <h4>Expert Team</h4>
+                            <p>Certified professionals with years of industry experience</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-text">
+                            <h4>Agile Methodology</h4>
+                            <p>Fast iterations and continuous delivery</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-text">
+                            <h4>24/7 Support</h4>
+                            <p>Always available when you need us</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="why-visual">
+                <div class="visual-card">
+                    <div class="visual-content">
+                        <h3>Innovation First</h3>
+                        <p>Leveraging cutting-edge technologies to build the future</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+            <h2 class="cta-title">Ready to Transform Your Business?</h2>
+            <p class="cta-text">Let's discuss how we can help you achieve your digital goals.</p>
+            <a href="{% url 'contact' %}" class="btn btn-primary btn-large">
+                Start Your Project
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

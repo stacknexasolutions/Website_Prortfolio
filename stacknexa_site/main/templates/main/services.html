@@ -1,0 +1,283 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Our Services - StackNexaSolutions{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1 class="page-title">Our <span class="gradient-text">Services</span></h1>
+        <p class="page-subtitle">Comprehensive technology solutions for modern businesses</p>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section">
+    <div class="container">
+        <!-- Cloud Solutions -->
+        <div class="service-detail">
+            <div class="service-detail-content">
+                <div class="service-badge">Cloud Infrastructure</div>
+                <h2 class="service-detail-title">Cloud Solutions</h2>
+                <p class="service-detail-text">
+                    Transform your infrastructure with enterprise-grade cloud solutions. We specialize in AWS, Azure, and Google Cloud Platform, providing end-to-end cloud migration, optimization, and management services.
+                </p>
+                
+                <div class="service-features">
+                    <div class="feature-col">
+                        <h4>What We Offer</h4>
+                        <ul>
+                            <li>Cloud Architecture Design</li>
+                            <li>Migration & Deployment</li>
+                            <li>Auto-scaling & Load Balancing</li>
+                            <li>Cost Optimization</li>
+                            <li>Security & Compliance</li>
+                            <li>24/7 Monitoring & Support</li>
+                        </ul>
+                    </div>
+                    <div class="feature-col">
+                        <h4>Technologies</h4>
+                        <ul>
+                            <li>AWS (EC2, S3, Lambda, RDS)</li>
+                            <li>Microsoft Azure</li>
+                            <li>Google Cloud Platform</li>
+                            <li>Docker & Kubernetes</li>
+                            <li>Terraform & CloudFormation</li>
+                            <li>CI/CD Pipelines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="service-detail-visual">
+                <div class="visual-box cloud-visual">
+                    <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M50 100 Q 50 50, 100 50 T 150 100" />
+                        <circle cx="100" cy="120" r="40" />
+                        <line x1="100" y1="80" x2="100" y2="40" />
+                        <line x1="80" y1="90" x2="60" y2="70" />
+                        <line x1="120" y1="90" x2="140" y2="70" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Full Stack Development -->
+        <div class="service-detail reverse">
+            <div class="service-detail-visual">
+                <div class="visual-box dev-visual">
+                    <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="40" y="40" width="120" height="120" rx="10" />
+                        <line x1="40" y1="70" x2="160" y2="70" />
+                        <circle cx="55" cy="55" r="5" fill="currentColor" />
+                        <circle cx="70" cy="55" r="5" fill="currentColor" />
+                        <circle cx="85" cy="55" r="5" fill="currentColor" />
+                        <polyline points="70 100 80 110 100 90" />
+                        <line x1="70" y1="130" x2="130" y2="130" />
+                        <line x1="70" y1="145" x2="110" y2="145" />
+                    </svg>
+                </div>
+            </div>
+            <div class="service-detail-content">
+                <div class="service-badge">Web & Mobile Development</div>
+                <h2 class="service-detail-title">Full Stack Development</h2>
+                <p class="service-detail-text">
+                    Build powerful, scalable web and mobile applications with modern frameworks and best practices. From responsive websites to complex enterprise applications, we deliver solutions that perform.
+                </p>
+                
+                <div class="service-features">
+                    <div class="feature-col">
+                        <h4>Frontend</h4>
+                        <ul>
+                            <li>React.js & Next.js</li>
+                            <li>Vue.js & Nuxt.js</li>
+                            <li>Angular</li>
+                            <li>Responsive Design</li>
+                            <li>Progressive Web Apps</li>
+                            <li>Mobile (React Native)</li>
+                        </ul>
+                    </div>
+                    <div class="feature-col">
+                        <h4>Backend</h4>
+                        <ul>
+                            <li>Django & Flask (Python)</li>
+                            <li>Node.js & Express</li>
+                            <li>REST & GraphQL APIs</li>
+                            <li>PostgreSQL, MongoDB</li>
+                            <li>Authentication & Security</li>
+                            <li>Real-time Features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Analyst -->
+        <div class="service-detail">
+            <div class="service-detail-content">
+                <div class="service-badge">Business Intelligence</div>
+                <h2 class="service-detail-title">Data Analysis</h2>
+                <p class="service-detail-text">
+                    Turn your raw data into actionable insights. We help businesses make data-driven decisions through comprehensive analysis, visualization, and reporting solutions.
+                </p>
+                
+                <div class="service-features">
+                    <div class="feature-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li>Exploratory Data Analysis</li>
+                            <li>Statistical Analysis</li>
+                            <li>Trend Forecasting</li>
+                            <li>Customer Segmentation</li>
+                            <li>Performance Metrics</li>
+                            <li>Custom Reports</li>
+                        </ul>
+                    </div>
+                    <div class="feature-col">
+                        <h4>Tools & Technologies</h4>
+                        <ul>
+                            <li>Python (Pandas, NumPy)</li>
+                            <li>SQL & NoSQL Databases</li>
+                            <li>Tableau & Power BI</li>
+                            <li>Excel & Google Sheets</li>
+                            <li>Jupyter Notebooks</li>
+                            <li>Data Warehousing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="service-detail-visual">
+                <div class="visual-box data-visual">
+                    <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="40" y1="160" x2="160" y2="160" />
+                        <line x1="40" y1="160" x2="40" y2="40" />
+                        <polyline points="60 140 80 100 100 120 120 80 140 60" stroke-width="3" />
+                        <circle cx="60" cy="140" r="4" fill="currentColor" />
+                        <circle cx="80" cy="100" r="4" fill="currentColor" />
+                        <circle cx="100" cy="120" r="4" fill="currentColor" />
+                        <circle cx="120" cy="80" r="4" fill="currentColor" />
+                        <circle cx="140" cy="60" r="4" fill="currentColor" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Science & ML -->
+        <div class="service-detail reverse">
+            <div class="service-detail-visual">
+                <div class="visual-box ml-visual">
+                    <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="100" cy="100" r="60" />
+                        <circle cx="100" cy="100" r="40" />
+                        <circle cx="100" cy="100" r="20" />
+                        <line x1="100" y1="40" x2="100" y2="20" />
+                        <line x1="100" y1="160" x2="100" y2="180" />
+                        <line x1="40" y1="100" x2="20" y2="100" />
+                        <line x1="160" y1="100" x2="180" y2="100" />
+                        <circle cx="100" cy="100" r="8" fill="currentColor" />
+                    </svg>
+                </div>
+            </div>
+            <div class="service-detail-content">
+                <div class="service-badge">AI & Machine Learning</div>
+                <h2 class="service-detail-title">Data Science & Machine Learning</h2>
+                <p class="service-detail-text">
+                    Leverage the power of AI and machine learning to automate processes, predict outcomes, and gain competitive advantages. We build intelligent systems that learn and improve over time.
+                </p>
+                
+                <div class="service-features">
+                    <div class="feature-col">
+                        <h4>ML Solutions</h4>
+                        <ul>
+                            <li>Predictive Analytics</li>
+                            <li>Classification Models</li>
+                            <li>Natural Language Processing</li>
+                            <li>Computer Vision</li>
+                            <li>Recommendation Systems</li>
+                            <li>Anomaly Detection</li>
+                        </ul>
+                    </div>
+                    <div class="feature-col">
+                        <h4>Technologies</h4>
+                        <ul>
+                            <li>TensorFlow & PyTorch</li>
+                            <li>Scikit-learn</li>
+                            <li>OpenAI & Hugging Face</li>
+                            <li>Deep Learning (CNNs, RNNs)</li>
+                            <li>MLOps & Model Deployment</li>
+                            <li>Big Data (Spark, Hadoop)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard & Analytics -->
+        <div class="service-detail">
+            <div class="service-detail-content">
+                <div class="service-badge">Visualization & Reporting</div>
+                <h2 class="service-detail-title">Dashboard & Analytics</h2>
+                <p class="service-detail-text">
+                    Build interactive, real-time dashboards that provide instant visibility into your business metrics. Beautiful visualizations that tell compelling data stories.
+                </p>
+                
+                <div class="service-features">
+                    <div class="feature-col">
+                        <h4>Dashboard Types</h4>
+                        <ul>
+                            <li>Executive Dashboards</li>
+                            <li>Sales & Marketing Analytics</li>
+                            <li>Financial Reporting</li>
+                            <li>Operational Metrics</li>
+                            <li>Customer Analytics</li>
+                            <li>Real-time Monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="feature-col">
+                        <h4>Platforms & Tools</h4>
+                        <ul>
+                            <li>Custom Web Dashboards</li>
+                            <li>Tableau & Power BI</li>
+                            <li>Google Data Studio</li>
+                            <li>D3.js & Chart.js</li>
+                            <li>Plotly & Dash</li>
+                            <li>API Integrations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="service-detail-visual">
+                <div class="visual-box dashboard-visual">
+                    <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="30" y="30" width="140" height="140" rx="10" />
+                        <line x1="30" y1="70" x2="170" y2="70" />
+                        <rect x="45" y="85" width="45" height="35" />
+                        <rect x="110" y="85" width="45" height="35" />
+                        <line x1="45" y1="135" x2="45" y2="155" />
+                        <line x1="70" y1="145" x2="70" y2="155" />
+                        <line x1="95" y1="140" x2="95" y2="155" />
+                        <line x1="120" y1="135" x2="120" y2="155" />
+                        <line x1="145" y1="150" x2="145" y2="155" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+            <h2 class="cta-title">Ready to Get Started?</h2>
+            <p class="cta-text">Let's discuss your project and how we can help you succeed.</p>
+            <a href="{% url 'contact' %}" class="btn btn-primary btn-large">
+                Contact Us Today
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

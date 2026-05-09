@@ -1,0 +1,258 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Portfolio - StackNexaSolutions{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1 class="page-title">Our <span class="gradient-text">Portfolio</span></h1>
+        <p class="page-subtitle">Showcasing our best work and success stories</p>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="portfolio-section">
+    <div class="container">
+        <div class="portfolio-grid">
+            <!-- Project 1 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <div class="project-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <svg viewBox="0 0 200 200" fill="none" stroke="white" stroke-width="2">
+                            <rect x="40" y="40" width="120" height="120" rx="10" />
+                            <line x1="40" y1="70" x2="160" y2="70" />
+                            <line x1="60" y1="90" x2="140" y2="90" />
+                            <line x1="60" y1="110" x2="130" y2="110" />
+                            <line x1="60" y1="130" x2="120" y2="130" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <div class="portfolio-tags">
+                        <span class="tag">Cloud</span>
+                        <span class="tag">DevOps</span>
+                    </div>
+                    <h3 class="portfolio-title">E-Commerce Cloud Migration</h3>
+                    <p class="portfolio-description">
+                        Migrated a high-traffic e-commerce platform to AWS with 99.99% uptime. Implemented auto-scaling, load balancing, and reduced infrastructure costs by 40%.
+                    </p>
+                    <div class="portfolio-tech">
+                        <span>AWS</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>Terraform</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <div class="project-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <svg viewBox="0 0 200 200" fill="none" stroke="white" stroke-width="2">
+                            <circle cx="100" cy="80" r="40" />
+                            <path d="M60 120 Q100 180 140 120" />
+                            <line x1="80" y1="70" x2="80" y2="75" stroke-width="3" />
+                            <line x1="120" y1="70" x2="120" y2="75" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <div class="portfolio-tags">
+                        <span class="tag">Full Stack</span>
+                        <span class="tag">React</span>
+                    </div>
+                    <h3 class="portfolio-title">HealthCare Management System</h3>
+                    <p class="portfolio-description">
+                        Built a comprehensive patient management system with appointment scheduling, electronic health records, and real-time notifications for a healthcare provider.
+                    </p>
+                    <div class="portfolio-tech">
+                        <span>React</span>
+                        <span>Django</span>
+                        <span>PostgreSQL</span>
+                        <span>WebSocket</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <div class="project-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <svg viewBox="0 0 200 200" fill="none" stroke="white" stroke-width="2">
+                            <line x1="40" y1="160" x2="160" y2="160" />
+                            <line x1="40" y1="160" x2="40" y2="40" />
+                            <polyline points="60 120 80 80 100 100 120 60 140 70" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <div class="portfolio-tags">
+                        <span class="tag">Data Science</span>
+                        <span class="tag">ML</span>
+                    </div>
+                    <h3 class="portfolio-title">Sales Forecasting AI Model</h3>
+                    <p class="portfolio-description">
+                        Developed machine learning models to predict sales trends with 92% accuracy, helping a retail chain optimize inventory and reduce waste by 30%.
+                    </p>
+                    <div class="portfolio-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Scikit-learn</span>
+                        <span>Pandas</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <div class="project-placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <svg viewBox="0 0 200 200" fill="none" stroke="white" stroke-width="2">
+                            <rect x="30" y="30" width="140" height="140" rx="10" />
+                            <line x1="30" y1="70" x2="170" y2="70" />
+                            <rect x="50" y="90" width="40" height="30" />
+                            <rect x="110" y="90" width="40" height="30" />
+                            <line x1="50" y1="140" x2="150" y2="140" />
+                            <line x1="50" y1="155" x2="120" y2="155" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <div class="portfolio-tags">
+                        <span class="tag">Dashboard</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+                    <h3 class="portfolio-title">Real-Time Analytics Dashboard</h3>
+                    <p class="portfolio-description">
+                        Created an interactive business intelligence dashboard with real-time data visualization, custom reports, and KPI tracking for a fintech startup.
+                    </p>
+                    <div class="portfolio-tech">
+                        <span>React</span>
+                        <span>D3.js</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <div class="project-placeholder" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <svg viewBox="0 0 200 200" fill="none" stroke="white" stroke-width="2">
+                            <rect x="50" y="50" width="100" height="100" rx="10" />
+                            <path d="M70 100 L90 120 L130 80" stroke-width="3" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <div class="portfolio-tags">
+                        <span class="tag">Mobile</span>
+                        <span class="tag">React Native</span>
+                    </div>
+                    <h3 class="portfolio-title">Task Management Mobile App</h3>
+                    <p class="portfolio-description">
+                        Developed a cross-platform mobile app for project management with offline sync, push notifications, and team collaboration features.
+                    </p>
+                    <div class="portfolio-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Redux</span>
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <div class="project-placeholder" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <svg viewBox="0 0 200 200" fill="none" stroke="white" stroke-width="2">
+                            <circle cx="100" cy="100" r="60" />
+                            <circle cx="100" cy="100" r="40" />
+                            <circle cx="100" cy="100" r="20" />
+                            <circle cx="100" cy="100" r="5" fill="white" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="portfolio-content">
+                    <div class="portfolio-tags">
+                        <span class="tag">NLP</span>
+                        <span class="tag">AI</span>
+                    </div>
+                    <h3 class="portfolio-title">Customer Support Chatbot</h3>
+                    <p class="portfolio-description">
+                        Built an intelligent chatbot using NLP to handle customer queries, reducing support ticket volume by 60% and improving response times.
+                    </p>
+                    <div class="portfolio-tech">
+                        <span>Python</span>
+                        <span>OpenAI</span>
+                        <span>FastAPI</span>
+                        <span>LangChain</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials-section">
+    <div class="container">
+        <h2 class="section-title text-center">What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">
+                    "StackNexa transformed our business with their cloud solutions. The migration was seamless and the performance improvements were immediate."
+                </p>
+                <div class="testimonial-author">
+                    <strong>Sarah Johnson</strong>
+                    <span>CEO, TechRetail Inc.</span>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">
+                    "Outstanding work on our dashboard. The team delivered exactly what we needed, on time and within budget. Highly recommended!"
+                </p>
+                <div class="testimonial-author">
+                    <strong>Michael Chen</strong>
+                    <span>CTO, DataFlow Analytics</span>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">
+                    "The ML model they built has revolutionized our forecasting capabilities. Impressive technical expertise and great communication."
+                </p>
+                <div class="testimonial-author">
+                    <strong>Emily Rodriguez</strong>
+                    <span>VP Operations, RetailPro</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+            <h2 class="cta-title">Let's Build Something Amazing Together</h2>
+            <p class="cta-text">Ready to start your next project? We're here to help.</p>
+            <a href="{% url 'contact' %}" class="btn btn-primary btn-large">
+                Start Your Project
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}
